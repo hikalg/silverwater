@@ -1,0 +1,19 @@
+type: dnf
+repos:
+  copr:
+    - lilay/topgrade
+  nonfree:
+    - rpmfusion
+
+install:
+  packages:
+    - topgrade
+    - ffmpeg-free
+    - fcitx5-mozc
+    - fcitx5-unikey
+    
+remove:
+  packages:
+    - ffmpeg
+
+

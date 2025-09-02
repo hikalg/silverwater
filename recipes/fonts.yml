@@ -1,0 +1,10 @@
+type: fonts
+fonts:
+  nerd-fonts:
+    - FiraCode
+    - Terminus
+    - SourceCodePro
+  google-fonts:
+    - Overpass
+    - PublicSans
+    - Figtree
