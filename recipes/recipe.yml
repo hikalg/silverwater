@@ -1,6 +1,3 @@
----
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-
 name: silverwater
 # description will be included in the image's metadata
 description: a very funny linux image for myself and myself only <3
