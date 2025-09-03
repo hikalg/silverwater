@@ -17,5 +17,5 @@ modules:
   #     - source: system
   #       destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - from-file: rpm-ostree.yml
-  - from-file: dnf.yml
+  # - from-file: dnf.yml
   - from-file: fonts.yml
