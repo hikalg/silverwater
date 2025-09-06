@@ -1,9 +1,11 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-latest.json
+
 type: dnf
 repos:
   copr:
     - lilay/topgrade
-  nonfree:
-    - rpmfusion
+  nonfree: 
+    rpmfusion
 
 install:
   packages:
@@ -15,5 +17,3 @@ install:
 remove:
   packages:
     - ffmpeg
-
-
