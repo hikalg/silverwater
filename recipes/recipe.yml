@@ -19,3 +19,4 @@ modules:
   - from-file: rpm-ostree.yml
   - from-file: dnf.yml
   - from-file: fonts.yml
+  - from-file: default-flatpaks.yml

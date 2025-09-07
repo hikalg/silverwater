@@ -4,6 +4,7 @@ type: dnf
 repos:
   copr:
     - lilay/topgrade
+    - alciregi/distrobox
   nonfree: 
     rpmfusion
 
@@ -11,9 +12,11 @@ install:
   packages:
     - topgrade
     - ffmpeg-free
-    - fcitx5-mozc
-    - fcitx5-unikey
+    - fcitx5-mozc # Japanese IME
+    - fcitx5-unikey # Vietnamese IME
+    - distrobox
     
 remove:
   packages:
-    - ffmpeg
+    - ffmpeg # replace with free
+    - toolbx # replace with distrobox

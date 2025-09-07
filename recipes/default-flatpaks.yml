@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/default-flatpaks-latest.json
+
+type: default-flatpaks
+configurations:
+
+  - notify: true
+
+  - scope: user
+    repo:
+      title: Flathub (user)
+    install:
+      - io.github.kolunmi.Bazaar # Bazaar
+      - net.waterfox.waterfox # Waterfox
+      - com.ranfdev.DistroShelf # DistroShelf
