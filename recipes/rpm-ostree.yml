@@ -9,3 +9,6 @@ install:
   - micro
   - starship
   
+remove:
+  - firefox
+  - firefox-langpacks
