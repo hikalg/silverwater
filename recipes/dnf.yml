@@ -8,15 +8,13 @@ repos:
   nonfree: 
     rpmfusion
 
+remove:
+  packages:
+    - toolbx
+
 install:
   packages:
     - topgrade
-    - ffmpeg-free
     - fcitx5-mozc # Japanese IME
     - fcitx5-unikey # Vietnamese IME
     - distrobox
-    
-remove:
-  packages:
-    - ffmpeg # replace with free
-    - toolbx # replace with distrobox
