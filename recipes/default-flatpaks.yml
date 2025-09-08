@@ -5,9 +5,9 @@ configurations:
 
   - notify: true
 
-  - scope: user
+  - scope: system
     repo:
-      title: Flathub (user)
+      title: Flathub (system)
     install:
       - io.github.kolunmi.Bazaar # Bazaar
       - net.waterfox.waterfox # Waterfox
