@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/os-release-latest.json
+
+type: os-release
+
+properties:
+  ID: silverwater
+  ID_LIKE: fedora
+  PRETTY_NAME: "Silverwater Beaconsfield Alpha"
+  VARIANT_ID: standard
+  
+  VERSION: "1 Beaconsfield Alpha"
+  VERSION_ID: "1"
+  VERSION_CODENAME: beaconsfield
+
+  VENDOR_NAME: "Heavenly Laboratories"
+  VENDOR_URL: "https://hikamarine.au"
+
