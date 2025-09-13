@@ -21,3 +21,4 @@ modules:
   - from-file: fonts.yml
   - from-file: default-flatpaks.yml
   - from-file: gnome-extensions.yml
+  - from-file: os-release.yml
