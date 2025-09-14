@@ -5,7 +5,6 @@ name: silverwater
 # description will be included in the image's metadata
 description: a very funny linux image for myself and myself only <3
 
-# Project Bluefin latest
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest 
 

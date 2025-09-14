@@ -12,10 +12,15 @@ configurations:
       - io.github.kolunmi.Bazaar # Bazaar
       - net.waterfox.waterfox # Waterfox
       - com.ranfdev.DistroShelf # DistroShelf
+      - org.gnome.Boxes
 
   - scope: user
     repo:
       title: Flathub - User
     install:
-      - io.bassi.Amberol # Music player
+      - io.bassi.Amberol
+      - io.gitlab.adhami3310.Impression
+      - re.sonny.Tangram
+      - org.gnome.World.Iotas
+      - de.haeckerfelix.Fragments
       
