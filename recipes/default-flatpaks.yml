@@ -7,8 +7,15 @@ configurations:
 
   - scope: system
     repo:
-      title: Flathub (system)
+      title: Flathub - System
     install:
       - io.github.kolunmi.Bazaar # Bazaar
       - net.waterfox.waterfox # Waterfox
       - com.ranfdev.DistroShelf # DistroShelf
+
+  - scope: user
+    repo:
+      title: Flathub - User
+    install:
+      - io.bassi.Amberol # Music player
+      

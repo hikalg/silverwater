@@ -3,15 +3,18 @@
 type: os-release
 
 properties:
-  ID: silverwater
-  ID_LIKE: fedora
+  NAME: "Silverwater"
+  ID: "silverwater"
+  ID_LIKE: "fedora"
   PRETTY_NAME: "Silverwater Beaconsfield Alpha"
-  VARIANT_ID: standard
+  VARIANT_ID: "standard"
   
-  VERSION: "1 Beaconsfield Alpha"
-  VERSION_ID: "1"
-  VERSION_CODENAME: beaconsfield
+  VERSION: "00"
+  VERSION_ID: "2025.0.1_alpha"
+  VERSION_CODENAME: "beaconsfield_alpha"
+  RELEASE_TYPE: "development"
 
   VENDOR_NAME: "Heavenly Laboratories"
   VENDOR_URL: "https://hikamarine.au"
+
 
