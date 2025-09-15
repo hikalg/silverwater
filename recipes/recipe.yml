@@ -19,7 +19,6 @@ modules:
   # Install dnf modules
   - from-file: ../modules/dnf/system.yml
   - from-file: ../modules/dnf/input.yml
-  - from-file: ../modules/dnf/docker.yml
 
   # Install homebrew
   - from-file: ../modules/brew.yml
