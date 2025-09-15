@@ -4,9 +4,9 @@ type: os-release
 
 properties:
   NAME: "Silverwater"
-  ID: "silverwater"
+  ID: "Silverwater"
   ID_LIKE: "fedora"
-  PRETTY_NAME: "Silverwater Beaconsfield Alpha"
+  PRETTY_NAME: "Silverwater"
   VARIANT_ID: "standard"
   
   VERSION: "00"

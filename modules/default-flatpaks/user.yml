@@ -2,25 +2,17 @@
 
 type: default-flatpaks
 configurations:
-
   - notify: true
 
-  - scope: system
-    repo:
-      title: Flathub - System
-    install:
-      - io.github.kolunmi.Bazaar # Bazaar
-      - net.waterfox.waterfox # Waterfox
-      - com.ranfdev.DistroShelf # DistroShelf
-      - org.gnome.Boxes
+    scope: user
 
-  - scope: user
     repo:
+      url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      name: flathub
       title: Flathub - User
+
     install:
-      - io.bassi.Amberol
       - io.gitlab.adhami3310.Impression
       - re.sonny.Tangram
       - org.gnome.World.Iotas
       - de.haeckerfelix.Fragments
-      

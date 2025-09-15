@@ -3,21 +3,40 @@
 
 name: silverwater
 # description will be included in the image's metadata
-description: a very funny linux image for myself and myself only <3
+description: A custom distro based on Silverblue for masochists. Powered by Bluebuild. 
 
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest 
 
-# module configuration, executed in order
-# you can include multiple instances of the same module
+
 modules:
-  # - type: files
-  #   files:
-  #     - source: system
-  #       destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-  - from-file: rpm-ostree.yml
-  - from-file: dnf.yml
-  - from-file: fonts.yml
-  - from-file: default-flatpaks.yml
-  - from-file: gnome-extensions.yml
-  - from-file: os-release.yml
+  # Remove stuff
+  - from-file: ../modules/rpm-ostree.yml
+
+  # Install akmods
+  - from-file: ../modules/akmods.yml
+
+  # Install dnf modules
+  - from-file: ../modules/dnf/system.yml
+  - from-file: ../modules/dnf/input.yml
+  - from-file: ../modules/dnf/docker.yml
+
+  # Install homebrew
+  - from-file: ../modules/brew.yml
+
+  # Install flatpaks
+  - from-file: ../modules/default-flatpaks/system.yml
+  - from-file: ../modules/default-flatpaks/user.yml
+
+  # Install fonts
+  - from-file: ../modules/fonts/google.yml
+  - from-file: ../modules/fonts/nerdfonts.yml
+
+  # Install GNOME extensions
+  - from-file: ../modules/gnome-extensions.yml
+
+  # Apply branding
+  - from-file: ../modules/os-release.yml
+
+
+

@@ -2,28 +2,26 @@
 
 type: dnf
 repos:
-  copr:
+  copr: 
     - lilay/topgrade
-    # - alciregi/distrobox
-  nonfree: 
-    rpmfusion
+  cleanup: false
 
 remove:
   packages:
-    - toolbx
+    - toolbx # Replace toolbx with distrobox
+  auto-remove: true
 
 install:
   packages:
     - topgrade
-    - fcitx5-mozc # Japanese IME
-    - fcitx5-unikey # Vietnamese IME
+    - fastfetch
+    - pipx
+    - cargo
     - distrobox
+  install-weak-deps: true
 
 group-install:
   packages:
     - virtualization
-  with-optional: false
   install-weak-deps: true
-  skip-unavailable: false
-  skip-broken: false
-  allow-erasing: false
+

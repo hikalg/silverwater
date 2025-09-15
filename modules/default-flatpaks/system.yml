@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/default-flatpaks-latest.json
+
+type: default-flatpaks
+configurations:
+
+  - notify: true
+
+    scope: system
+
+    repo:
+      url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      name: flathub
+      title: Flathub - System
+
+    install:
+      - io.github.kolunmi.Bazaar
+      - org.gnome.Decibels
+      - io.gitlab.librewolf-community
+      - com.ranfdev.DistroShelf
+      - org.gnome.Boxes

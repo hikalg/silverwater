@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/brew-latest.json
+
+type: brew
+
+# Auto update Homebrew once a week
+auto-update: true
+update-interval: "7d"
+update-wait-after-boot: "10m"
+
+# Auto upgrade all packages once a week
+auto-upgrade: true
+upgrade-interval: "7d"
+upgrade-wait-after-boot: "30min"
+
+# Increase file limits
+nofile-limits: true
+
+# Disable telemetry
+brew-analytics: false

@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-latest.json
+
+type: dnf
+
+install:
+  packages:
+    - fcitx5-mozc # Japanese IME
+    - fcitx5-unikey # Vietnamese IME based on Unikey
+    
+  install-weak-deps: true
+  skip-unavailable: false
+  skip-broken: false
+  allow-erasing: false

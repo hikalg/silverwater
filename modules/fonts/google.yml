@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/fonts-latest.json
+
+type: fonts
+fonts:
+  google-fonts:
+    - Overpass
+    - PublicSans
+    - Inter
+    - Lato
+    - Figtree
+    - RobotoSlab
+    - Barlow
+    - BebasNeue
