@@ -18,3 +18,4 @@ configurations:
       - io.gitlab.librewolf-community
       - com.ranfdev.DistroShelf
       - org.gnome.Boxes
+      - org.gnome.Extensions
