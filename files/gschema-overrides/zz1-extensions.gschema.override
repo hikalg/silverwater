@@ -1,16 +1,7 @@
 [org.gnome.shell]
 allow-extension-installation=true
 
-enabled-extensions=[
-    'user-theme@gnome-shell-extensions.gcampax.github.com',
-    'dash-to-dock@micxgx.gmail.com',
-    'appindicatorsupport@rgcjonas.gmail.com',
-    'gsconnect@andyholmes.github.io',
-    'blur-my-shell@aunetx',
-    'ddterm@amezin.github.com',
-    'search-light@icedman.github.com',
-    'tailscale@joaophi.github.com',
-]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','appindicatorsupport@rgcjonas.gmail.com','gsconnect@andyholmes.github.io','blur-my-shell@aunetx','ddterm@amezin.github.com','search-light@icedman.github.com','tailscale@joaophi.github.com']
 
 [org.gnome.desktop.peripherals.touchpad]
 click-method='areas'
