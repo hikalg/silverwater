@@ -34,6 +34,9 @@ modules:
   # Install GNOME extensions
   - from-file: ../modules/gnome-extensions.yml
 
+  # Add gschema-overrides
+  - type: gschema-overrides
+
   # Apply branding
   - from-file: ../modules/os-release.yml
 

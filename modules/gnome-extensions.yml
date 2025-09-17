@@ -2,6 +2,7 @@
 
 type: gnome-extensions
 install:
+  - 19 # User Themes - Linux is freedom, I can do what I want!
   - 307 # Dash to Dock
   - 615 # AppIndicator
   - 1319 # GSConnect
