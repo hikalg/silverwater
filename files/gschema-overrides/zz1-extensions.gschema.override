@@ -6,7 +6,7 @@ enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash
 [org.gnome.desktop.peripherals.touchpad]
 click-method='areas'
 natural-scroll=true
-two-fingers-scrolling-enabled=true
+two-finger-scrolling-enabled=true
 
 [org.gnome.desktop.interface]
 accent-color='blue'
