@@ -5,7 +5,7 @@ enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash
 
 [org.gnome.desktop.peripherals.touchpad]
 click-method='areas'
-natural-scrolling=true
+natural-scroll=true
 two-fingers-scrolling-enabled=true
 
 [org.gnome.desktop.interface]
