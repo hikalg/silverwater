@@ -13,9 +13,7 @@ configurations:
       title: Flathub - System
 
     install:
-      - io.github.kolunmi.Bazaar
       - org.gnome.Decibels
-      - io.gitlab.librewolf-community
       - com.ranfdev.DistroShelf
       - org.gnome.Boxes
       - org.gnome.Extensions

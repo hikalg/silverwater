@@ -18,6 +18,9 @@ install:
     - pipx
     - cargo
     - distrobox
+    - librewolf
+    - syncthing
+    
   install-weak-deps: true
 
 group-install:
