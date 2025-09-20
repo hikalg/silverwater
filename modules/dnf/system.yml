@@ -4,8 +4,6 @@ type: dnf
 repos:
   copr: 
     - lilay/topgrade
-  files: 
-    - ../files/repos/terra.repo
   cleanup: false
 
 remove:
