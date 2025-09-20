@@ -11,9 +11,6 @@ image-version: latest
 
 modules:
 
-  - type: script
-    scripts:
-      - dnf-repos.sh
   # Remove stuff
   - from-file: ../modules/rpm-ostree.yml
 
