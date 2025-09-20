@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/files-latest.json
+
+type: files
+files: 
+  - source: usr/share/themes
+    destination: usr/share/themes
