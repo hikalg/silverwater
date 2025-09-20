@@ -20,6 +20,9 @@ install:
     - pipx
     - cargo
     - distrobox
+    - syncthing
+    - papirus-icon-theme
+    - gtk-murrine-engine
   install-weak-deps: true
 
 group-install:
