@@ -18,3 +18,9 @@ color-scheme='prefer-dark'
 
 [org.gnome.shell.extensions.user-theme]
 name='Catppuccin-Dark-Frappe'
+
+[org.gnome.shell.interface.gtk-theme]
+font-name='Fira Code 12'
+gtk-gnome='Catppuccin-Dark-Frappe'
+show-battery-percentage=true
+text-scaling-factor=1.005
