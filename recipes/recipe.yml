@@ -11,6 +11,9 @@ image-version: latest
 
 modules:
 
+  # Transfer files
+  - from-file: ../modules/files.yml
+
   # Remove stuff
   - from-file: ../modules/rpm-ostree.yml
 
