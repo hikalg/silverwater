@@ -2,5 +2,5 @@
 
 type: files
 files: 
-  - source: usr/share/themes
-    destination: usr/share/themes
+  - source: system/usr/share/themes
+    destination: /usr/share/themes
