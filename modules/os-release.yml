@@ -9,7 +9,7 @@ properties:
   PRETTY_NAME: "Silverwater"
   VARIANT_ID: "standard"
   
-  VERSION: "00"
+  VERSION: "42"
   VERSION_ID: "2025.0.1_alpha"
   VERSION_CODENAME: "beaconsfield_alpha"
   RELEASE_TYPE: "development"
