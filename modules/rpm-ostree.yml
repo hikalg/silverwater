@@ -8,7 +8,6 @@ repos:
 install:
   - micro
   - starship
-  - ffmpeg-free
   
 remove:
   - firefox
