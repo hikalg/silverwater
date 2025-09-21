@@ -3,7 +3,7 @@ allow-extension-installation=true
 
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','appindicatorsupport@rgcjonas.gmail.com','gsconnect@andyholmes.github.io','ddterm@amezin.github.com','search-light@icedman.github.com','tailscale@joaophi.github.com']
 
-favorite-apps=['io.gitlab.librewolf-community', 'com.ranfdev.DistroShelf', ]
+favorite-apps=['io.gitlab.librewolf-community.desktop', 'com.ranfdev.DistroShelf.desktop', 'io.github.kolunmi.Bazaar.desktop']
 
 [org.gnome.desktop.peripherals.touchpad]
 click-method='areas'
