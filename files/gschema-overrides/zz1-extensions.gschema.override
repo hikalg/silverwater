@@ -27,7 +27,7 @@ picture-uri-dark='file:///usr/share/backgrounds/A6_jpeg/a6-amoled-focus.jpg'
 name='Catppuccin-Dark-Frappe'
 
 [org.gnome.shell.interface.gtk-theme]
-font-name='Fira Code 12'
+font-name='JetBrains Mono 12'
 gtk-gnome='Catppuccin-Dark-Frappe'
 show-battery-percentage=true
 text-scaling-factor=1.005
