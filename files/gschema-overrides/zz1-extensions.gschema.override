@@ -26,11 +26,11 @@ picture-uri-dark='file:///usr/share/backgrounds/A6_jpeg/a6-amoled-focus.jpg'
 [org.gnome.shell.extensions.user-theme]
 name='Catppuccin-Dark-Frappe'
 
-[org.gnome.shell.interface.gtk-theme]
+[org.gnome.desktop.interface.gtk-theme]
 font-name='JetBrains Mono 12'
 gtk-gnome='Catppuccin-Dark-Frappe'
 show-battery-percentage=true
-text-scaling-factor=1.005
+text-scaling-factor=1
 
 [org.gnome.shell.extensions.search-light]
 shortcut-search=['<Super>space']
