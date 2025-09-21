@@ -31,3 +31,6 @@ font-name='JetBrains Mono 12'
 gtk-gnome='Catppuccin-Dark-Frappe'
 show-battery-percentage=true
 text-scaling-factor=1.005
+
+[org.gnome.shell.extensions.search-light]
+shortcut-search=['<Super>space']
