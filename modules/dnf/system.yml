@@ -20,6 +20,8 @@ install:
     - distrobox
     - syncthing
     - papirus-icon-theme
+    - dconf-editor
+    - gnome-tweaks
     - gtk-murrine-engine
   install-weak-deps: true
 

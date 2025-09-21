@@ -19,3 +19,4 @@ configurations:
       - com.ranfdev.DistroShelf
       - org.gnome.Boxes
       - org.gnome.Extensions
+      - org.gnome.FileRoller

@@ -3,6 +3,8 @@ allow-extension-installation=true
 
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','appindicatorsupport@rgcjonas.gmail.com','gsconnect@andyholmes.github.io','ddterm@amezin.github.com','search-light@icedman.github.com','tailscale@joaophi.github.com']
 
+favorite-apps=['io.gitlab.librewolf-community', 'com.ranfdev.DistroShelf', ]
+
 [org.gnome.desktop.peripherals.touchpad]
 click-method='areas'
 natural-scroll=true
@@ -15,6 +17,7 @@ clock-show-date=true
 clock-show-seconds=true
 clock-show-weekday=true
 color-scheme='prefer-dark'
+icon-theme='Papirus-Dark'
 
 [org.gnome.shell.extensions.user-theme]
 name='Catppuccin-Dark-Frappe'
