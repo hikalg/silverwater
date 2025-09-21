@@ -14,9 +14,11 @@ configurations:
 
     install:
       - io.github.kolunmi.Bazaar
-      - org.gnome.Decibels
       - io.gitlab.librewolf-community
       - com.ranfdev.DistroShelf
       - org.gnome.Boxes
       - org.gnome.Extensions
       - org.gnome.FileRoller
+      - org.gnome.Loupe
+      - org.gnome.TextEditor
+      - org.gnome.Connections

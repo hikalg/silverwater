@@ -16,3 +16,5 @@ configurations:
       - re.sonny.Tangram
       - org.gnome.World.Iotas
       - de.haeckerfelix.Fragments
+      - org.gnome.Decibels
+      - de.haeckerfelix.Shortwave

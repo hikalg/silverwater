@@ -1,7 +1,7 @@
 [org.gnome.shell]
 allow-extension-installation=true
 
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','appindicatorsupport@rgcjonas.gmail.com','gsconnect@andyholmes.github.io','ddterm@amezin.github.com','search-light@icedman.github.com','tailscale@joaophi.github.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','appindicatorsupport@rgcjonas.gmail.com','gsconnect@andyholmes.github.io','search-light@icedman.github.com','tailscale@joaophi.github.com', 'logomenu@aryan_k']
 
 favorite-apps=['io.gitlab.librewolf-community.desktop', 'org.gnome.Nautilus.desktop', 'com.ranfdev.DistroShelf.desktop', 'io.github.kolunmi.Bazaar.desktop']
 
@@ -20,8 +20,8 @@ color-scheme='prefer-dark'
 icon-theme='Papirus-Dark'
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/A6/a6-light-focus.jxl'
-picture-uri-dark='file:///usr/share/backgrounds/A6/a6-amoled-focus.jxl'
+picture-uri='file:///usr/share/backgrounds/A6_jpeg/a6-light-focus.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/A6_jpeg/a6-amoled-focus.jpg'
 
 [org.gnome.shell.extensions.user-theme]
 name='Catppuccin-Dark-Frappe'

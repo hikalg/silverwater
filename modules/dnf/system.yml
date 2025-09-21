@@ -22,6 +22,7 @@ install:
     - papirus-icon-theme
     - dconf-editor
     - gnome-tweaks
+    - gnome-extensions
     - gtk-murrine-engine
   install-weak-deps: true
 
