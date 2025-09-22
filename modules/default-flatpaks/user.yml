@@ -18,3 +18,5 @@ configurations:
       - de.haeckerfelix.Fragments
       - org.gnome.Decibels
       - de.haeckerfelix.Shortwave
+      - org.gnome.gitlab.somas.Apostrophe
+      - org.signal.Signal
