@@ -1,0 +1,48 @@
+
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+name: silverwater-nvidia
+# description will be included in the image's metadata
+description: A custom distro based on Silverblue for masochists. Powered by Bluebuild. 
+
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: latest 
+
+
+modules:
+
+  # Transfer files
+  - from-file: ../modules/files.yml
+
+  # Remove stuff
+  - from-file: ../modules/rpm-ostree.yml
+
+  # Install akmods
+  - from-file: ../modules/akmods_nvidia.yml
+
+  # Install dnf modules
+  - from-file: ../modules/dnf/system.yml
+  - from-file: ../modules/dnf/input.yml
+
+  # Install homebrew
+  - from-file: ../modules/brew.yml
+
+  # Install flatpaks
+  - from-file: ../modules/default-flatpaks/system.yml
+  - from-file: ../modules/default-flatpaks/user.yml
+
+  # Install fonts
+  - from-file: ../modules/fonts/google.yml
+  - from-file: ../modules/fonts/nerdfonts.yml
+
+  # Install GNOME extensions
+  - from-file: ../modules/gnome-extensions.yml
+
+  # Add gschema-overrides
+  - type: gschema-overrides
+
+  # Apply branding
+  - from-file: ../modules/os-release.yml
+
+
+
