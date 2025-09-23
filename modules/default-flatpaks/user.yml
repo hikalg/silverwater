@@ -20,3 +20,4 @@ configurations:
       - de.haeckerfelix.Shortwave
       - org.gnome.gitlab.somas.Apostrophe
       - org.signal.Signal
+      - com.jeffser.Alpaca

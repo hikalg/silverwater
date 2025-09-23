@@ -22,3 +22,5 @@ configurations:
       - org.gnome.Loupe
       - org.gnome.TextEditor
       - org.gnome.Connections
+      - org.gnome.Papers
+      - org.onlyoffice.desktopeditors
