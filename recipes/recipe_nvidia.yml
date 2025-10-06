@@ -6,7 +6,7 @@ name: silverwater-nvidia
 description: A custom distro based on Silverblue for masochists. Powered by Bluebuild. 
 
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest 
+image-version: latest
 
 
 modules:
